@@ -1,0 +1,22 @@
+body { 
+    background: #F8F8FF no-repeat fixed center; 
+}
+
+h1 {
+    color: #0000FF;
+    font-size: 30px;
+    font-family: "Arial";
+}
+
+
+Button {
+	color: #FFFFFF;
+    font-family: "Arial";
+    background: : #0000FF;
+    padding: 10px;
+}
+
+.HEJ {
+    color #0000FF;
+    size: 30px;
+}
