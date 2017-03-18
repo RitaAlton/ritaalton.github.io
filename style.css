@@ -1,22 +1,400 @@
 body { 
-    background: #F8F8FF no-repeat fixed center; 
+    background: #F8F8FF; 
 }
 
-h1 {
+.ingress {
     color: #0000FF;
-    font-size: 30px;
+    font-size: 10px;
     font-family: "Arial";
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.main-header {
+    color: #0000FF;
+    font-size: 35px;
+    font-family: "Arial";
+    letter-spacing: 2px;
+    margin-bottom: 0px; 
+}
+
+.titel {
+    color: #0000FF;
+    font-style: italic;
+    font-size: 13px;
+    font-family: "Arial";
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+
+.citat {
+    color: #FFFFFF;
+    font-style: italic;
+    font-size: 20px;
+    font-family: "Arial";
+    letter-spacing: 2px;
+    background: #0000FF;
+    padding: 50px;
+    padding-bottom: 30px;
+    margin: 0px;
+}
+
+.citat-namn {
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 12px;
+    font-family: "Arial";
+    background: #0000FF;
+    padding-bottom: 50px;
+    margin: 0px;
+}
+
+.img-be {
+    width: 25px;
+}
+
+.img-li {
+    width: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.img-in {
+    width: 25px;
+    margin-right: 30px;
+}
+
+.img-mail {
+    width: 25px;
+}
+.img-symbols-div {
+    margin-top: 20px;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    padding-top: 11px;
+    padding-bottom: 7px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
-Button {
-	color: #FFFFFF;
-    font-family: "Arial";
-    background: : #0000FF;
-    padding: 10px;
+.line-top {
+    border-bottom: 6px solid red;
+    border-top: 6px solid red;
 }
 
-.HEJ {
-    color #0000FF;
-    size: 30px;
+.img-circle {
+    border-radius: 100%;
+    width: 300px;
+    background: white;
+    margin-top: 30px;
+}
+
+.img-gif {
+    width: 320px;
+}
+
+.img-project1 {
+    width: 375px;
+}
+
+.Abonnemang-txt {
+    color: #0000FF;
+    font-size: 10px;
+    font-family: "Arial"
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.img-project2 {
+    width: 375px;
+}
+
+.InspireMe-txt {
+    color: #0000FF;
+    font-size: 10px;
+    font-family: "Arial"
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.img-project3 {
+    width: 375px;
+}
+
+.Eton-txt {
+    color: #0000FF;
+    font-size: 10px;
+    font-family: "Arial";
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.go-to-top {
+    background: #0000FF;
+    margin: 0px;
+    color: #FFFFFF;
+    font-style: italic;
+    font-size: 13px;
+    font-family: "Arial";
+    letter-spacing: 2px;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 760px) {
+    .ingress {
+    color: #0000FF;
+    font-size: 22px;
+    font-family: "Arial";
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.main-header {
+    color: #0000FF;
+    font-size: 80px;
+    font-family: "Arial";
+    letter-spacing: 5px;
+    margin-bottom: 0px; 
+    margin-top: 40px;
+}
+
+.titel {
+    color: #0000FF;
+    font-style: italic;
+    font-size: 25px;
+    font-family: "Arial";
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+
+.citat {
+    color: #FFFFFF;
+    font-style: italic;
+    font-size: 45px;
+    font-family: "Arial";
+    letter-spacing: 5px;
+    background: #0000FF;
+    padding: 100px;
+    padding-bottom: 70px;
+    margin: 0px;
+}
+
+.citat-namn {
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 35px;
+    font-family: "Arial";
+    background: #0000FF;
+    padding-bottom: 100px;
+    margin: 0px;
+    letter-spacing: 2px;
+}
+
+.img-be {
+    width: 50px;
+}
+
+.img-li {
+    width: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.img-in {
+    width: 50px;
+    margin-right: 70px;
+}
+
+.img-mail {
+    width: 50px;
+}
+.img-symbols-div {
+    margin-top: 20px;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+
+.line-top {
+    border-bottom: 6px solid red;
+    border-top: 6px solid red;
+}
+
+.img-circle {
+    border-radius: 100%;
+    width: 400px;
+    background: white;
+    margin-top: 50px;
+}
+
+.img-gif {
+    width: 700px;
+}
+
+.img-project1 {
+    width: 768px;
+}
+
+.Abonnemang-txt {
+    color: #0000FF;
+    font-size: 18px;
+    font-family: "Arial";
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+}
+
+.img-project2 {
+    width: 768px;
+}
+
+.InspireMe-txt {
+    color: #0000FF;
+    font-size: 18px;
+    font-family: "Arial";
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+}
+
+.img-project3 {
+    width: 768px;
+}
+
+.Eton-txt {
+    color: #0000FF;
+    font-size: 18px;
+    font-family: "Arial";
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 100px;
+}
+
+.go-to-top {
+    padding: 25px;
+    font-size: 35px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .ingress {
+    font-size: 19px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.citat {
+    font-size: 55px;
+    font-family: "Arial";
+    letter-spacing: 5px;
+    background: #0000FF;
+    padding: 180px;
+    padding-bottom: 70px;
+    margin: 0px;
+}
+
+.citat-namn {
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 35px;
+    font-family: "Arial";
+    background: #0000FF;
+    padding-bottom: 100px;
+    margin: 0px;
+    letter-spacing: 2px;
+}
+
+.img-be {
+    width: 50px;
+}
+
+.img-li {
+    width: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.img-in {
+    width: 50px;
+    margin-right: 100px;
+}
+
+.img-mail {
+    width: 50px;
+}
+.img-symbols-div {
+    margin-left: 180px;
+    margin-right: 180px;  
+}
+
+.line-top {
+    border-bottom: 6px solid red;
+    border-top: 6px solid red;
+}
+
+.img-circle {
+    border-radius: 100%;
+    width: 250px;
+    background: white;
+    margin-top: 50px;
+}
+
+.img-gif {
+    width: 400px;
+}
+
+.img-project1 {
+    width: 1080px;
+    margin-top: 50px;
+}
+
+.Abonnemang-txt {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.img-project2 {
+    width: 1080px;
+}
+
+.InspireMe-txt {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.img-project3 {
+    width: 1080px;
+}
+
+.Eton-txt {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.go-to-top {
+    padding: 25px;
+    font-size: 35px;
+}
 }
